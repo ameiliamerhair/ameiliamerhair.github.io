@@ -1,13 +1,100 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>INFT1206 - Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birdwatching</title>
     <style>
-        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c3f0c2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3dcb3d;
+            color: #000;
+            text-align: center;
+            padding: 10px;
+            font-size: 24px;
+            font-family: 'Georgia', serif;
+        }
+        nav {
+            background-color: #5ed05e;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .welcome,
+        .photos {
+            background-color: #a6f2a6;
+            padding: 15px;
+            width: 45%;
+        }
+        .welcome h2,
+        .photos h2 {
+            font-family: 'Georgia', serif;
+            color: #430d43;
+        }
+        .photos img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            background-color: #8ee08e;
+            padding: 10px;
+            font-size: 12px;
+        }
+        footer a {
+            color: blue;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-<hl>INFT1206 - Web Development Fundatmentals</hl>
-<p>This is my course page for Web Development Fundamentals (INFT1206) at <a href = "https://durhamcollege.ca">Durham College</a>.</p>
-
+    <header>
+        BIRDWATCHING
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Get Started</a>
+        <a href="#">Photos</a>
+        <a href="#">Gear</a>
+        <a href="#">Forum</a>
+    </nav>
+    <div class="container">
+        <div class="welcome">
+            <h2>Welcome</h2>
+            <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people.</p>
+            <p>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
+        </div>
+        <div class="photos">
+            <h2>Favourite Photos</h2>
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+            <img src="photo4.jpg" alt="Photo 4">
+        </div>
+    </div>
+    <footer>
+        This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016. <br>
+        <a href="https://game-icons.net/1x1/lorc/dove.html
+Dove icon, SVG and PNG | Game-icons.net
+A pigeon with spread wings. Ideas & Requests; Recent icons; FAQ; About
+game-icons.net
+">Dove icon</a> by Lorc.
+    </footer>
 </body>
 </html>
