@@ -1,1 +1,1 @@
-# ameiliamerhair.gitbub.io
+# ameiliamerhair.github.io
