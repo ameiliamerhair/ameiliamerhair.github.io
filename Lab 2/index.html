@@ -99,15 +99,14 @@
   <body>
     <header>
       <h1>Mozilla</h1>
-      <!-- insert <img> element, link to the small
-          version of the Firefox logo -->
+      <img src="usable images/firefox_logo-only_RGB120.png" alt="Firefox Logo">
 
     </header>
 
     <main>
       <article>
         <!-- insert iframe from youtube -->
-
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg?si=iIynhjM1PYeyiSqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h2>Rocking the free web</h2>
 
         <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
@@ -118,16 +117,31 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img 
+            srcset="usable images/firefox_logo-only_RGB120.png 120w, 
+            usable images/firefox_logo-only_RGB400.png 400w"
+            sizes="(max-width: 500px) 120px, 400px"
+            src="usable images/firefox_logo-only_RGB400.png" 
+            alt="Firefox Logo Only">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+          <img 
+            srcset="usable images/mozilla-dinosaur-head120.png 120w,
+            usable images/mozilla-dinosaur-head400.png 400w"
+            sizes="(max-width: 500px) 120px, 400px"
+            src="usable images/mozilla-dinosaur-head400.png" 
+            alt="Dinosaur Head">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img 
+            srcset="usable images/firefox-addons120.png 120w,
+            usable images/firefox-addons400.png 400w"
+            sizes="(max-width: 500px) 120px, 400px"
+            src="usable images/firefox-addons400.png" 
+            alt="Addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img src="usable images/mdn.svg" alt="MDN">
         </a>
         <div class="clearfix"></div>
       </div>
