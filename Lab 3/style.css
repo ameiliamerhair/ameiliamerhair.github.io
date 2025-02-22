@@ -2,5 +2,18 @@ html {
     font-family: sans-serif;
   }
   
-  /* Your CSS below here */
-  
+  /* Start of the cool box styling*/
+.cool-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b92929;
+    border-radius: 12px;
+    background-color: #e61818;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.2) 100%);
+    color: #ffffff;
+    font-size: 1.125rem;
+    padding: 10px;
+}
