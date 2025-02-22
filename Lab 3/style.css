@@ -16,4 +16,9 @@ html {
     color: #ffffff;
     font-size: 1.125rem;
     padding: 10px;
+
+    box-shadow: 
+        3px 3px 6px rgba(0, 0, 0, 0.1),
+        inset 3px 3px 6px rbga(255, 255, 255, 0.15),
+        inset -3px -3px 6px rgba(0, 0, 0, 0.1);
 }
