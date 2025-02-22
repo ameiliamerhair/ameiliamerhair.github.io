@@ -100,4 +100,30 @@
     background-size: 100%;
     background-image: url("https://mdn.github.io/learning-area/css/styling-text/typesetting-a-homepage-start/external-link-52.png");
   }
+
+  ul {
+    list-style-type: square;
+  }
   
+  nav {
+    font-size: 200%;
+    text-align: center;
+  }
+  
+  nav > ul {
+    list-style-type: none;
+  }
+  
+  nav > ul > li {
+    outline: solid 1px #a66;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  nav > ul > li > a:link {
+    text-decoration: none;
+  }
+  
+  nav > ul > li > a:visited {
+    text-decoration: none;
+  }
