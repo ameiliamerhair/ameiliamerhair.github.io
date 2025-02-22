@@ -5,7 +5,7 @@ body {
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
   }
 
-  img {
+  .grid img {
       max-width: 100%;
       display: block;
       margin: 5px;
@@ -22,17 +22,23 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    display: flex;
   }
   
   nav {
     background-color: #000;
     padding: .5em;
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    top: 0;
   }
   
   nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    justify-content: space-between;
   }
   
   nav a {
@@ -45,6 +51,11 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    display:flex;
+    flex-direction:row;
+    gap: 1px;
+    width:300px;
+    flex-wrap:wrap;
   }
 
   .feature {
