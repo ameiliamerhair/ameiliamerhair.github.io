@@ -1,27 +1,27 @@
 html {
     font-family: sans-serif;
 }
-/* Start of the cool box styling*/
-.cool-box {
+
+div {
     width: 200px;
-    height: 200px;
+    height: 150px;
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
-    border: 1px solid #b92929;
+    border: 1px solid darkred;
     border-radius: 12px;
-    background-color: #e61818;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.2) 100%);
-    color: #ffffff;
+    background-color: red;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%);
+    color: white;
+    text-shadow: 1.5px 1.5px black;
     font-size: 1.125rem;
     padding: 10px;
-
     box-shadow: 
-        3px 3px 6px rgba(0, 0, 0, 0.1),
-        inset 3px 3px 6px rgba(255, 255, 255, 0.15),
-        inset -3px -3px 6px rgba(0, 0, 0, 0.1);
+        3px 3px 5px black,
+        inset 2px 2px 4px rgba(255, 255, 255, 0.5),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.5);
 }
-
 body {
     display: flex;
     justify-content: center;
