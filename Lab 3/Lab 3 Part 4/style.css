@@ -50,7 +50,30 @@ body {
   .feature {
       width: 200px;
   }
+  nav ul {
+    display: flex;
+  }
   nav ul li{
     flex: 1;
     border-right: 1px solid white;
   }
+  nav ul li:last-child{
+    border: none;
+  }
+nav{
+  position: sticky;
+  top: 0px;
+  justify-items: center;
+  /*text-align: center;*/
+}
+article img{
+  float: left;
+  margin-right: 15px;
+}
+@media screen and (min-width:600px){
+.grid{
+  display: grid;
+  grid-template-columns:3fr 1fr ;
+  gap: 10px;
+}
+}
