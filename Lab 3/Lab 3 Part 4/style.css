@@ -8,6 +8,7 @@ body {
   img {
       max-width: 100%;
       display: block;
+      margin: 5px;
   }
   
   .logo {
@@ -35,7 +36,7 @@ body {
   }
   
   nav a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     padding: .5em 1em;
   }
@@ -48,4 +49,8 @@ body {
 
   .feature {
       width: 200px;
+  }
+  nav ul li{
+    flex: 1;
+    border-right: 1px solid white;
   }
