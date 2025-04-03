@@ -1,0 +1,23 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=adc40d7c
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Hard Disk 2-s001.vmdk"
+RW 8323072 SPARSE "Hard Disk 2-s002.vmdk"
+RW 8323072 SPARSE "Hard Disk 2-s003.vmdk"
+RW 6488064 SPARSE "Hard Disk 2-s004.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "1958"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "60337798cb9ff1b2d71953d8adc40d7c"
+ddb.uuid = "60 00 C2 96 89 8a ba 6d-34 2e 58 90 6a 7c fd 6c"
+ddb.virtualHWVersion = "21"
