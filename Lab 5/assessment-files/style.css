@@ -1,6 +1,4 @@
 /* || General setup */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Sonsie+One&display=swap');
-
 
 html, body {
   margin: 0;
@@ -249,4 +247,43 @@ audio {
 
 .comment-container li p:nth-child(2) {
   flex: 5;
+}
+.controls {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 1rem;
+  border: #2a2a2a solid 1px;
+  padding: 1rem;
+
+}
+
+.controls button, .controls div {
+  background: #333;
+  border: 0;
+  color: white;
+  padding: .5em;
+  font-size: 1.6rem;
+  line-height: 100%;
+  flex: 1;
+  text-align: center;
+}
+
+.controls button {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.transcript-active {
+  display: block;
+  font-family: inherit;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2a2a2a;
+  font-size: 1.6rem;
+  border: #2a2a2a solid 1px;
+  padding: .5rem;
+}
+
+.transcript-hidden {
+  display: none;
 }
